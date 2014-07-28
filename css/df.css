@@ -1,0 +1,119 @@
+﻿.Tag1 label
+        {
+            text-align: right;
+        }
+
+        fieldset
+        {
+            width: 700px;
+        }
+
+        fieldset
+        {
+            padding: 30px 25px 25px 20px;
+            margin: 25px 25px 25px 25px;
+        }
+
+        .fancytable
+        {
+            border: 1px solid #cccccc;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+            .fancytable td
+            {
+                border: 1px solid #cccccc;
+                color: #555555;
+                text-align: center;
+                line-height: 28px;
+            }
+
+        .headerrow
+        {
+            background-color: #0066cc;
+        }
+
+            .headerrow td
+            {
+                color: #ffffff;
+                text-align: center;
+            }
+
+        .datarowodd
+        {
+            background-color: #ffffff;
+        }
+
+        .dataroweven
+        {
+            background-color: #efefef;
+        }
+
+        .datarowodd td
+        {
+            background-color: #ffffff;
+        }
+
+        .dataroweven td
+        {
+            background-color: #efefef;
+        }
+
+        .sexyborder
+        {
+            border: 1px solid #0066cc;
+            padding: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        input[type='text'] label
+        {
+            border-radius: 3px;
+            border: 1px solid #CCC;
+            height: 20px;
+            padding: 1px;
+            font-weight: 100;
+            font-size: 16px;
+            font-family: Verdana;
+            box-shadow: 1px 1px 5px #CCC;
+            text-align: left;
+        }
+
+        #txtOverall
+        {
+            width: 78px;
+            height: 28px;
+        }
+
+        #txtPlanning
+        {
+            width: 78px;
+            height: 28px;
+        }
+
+        #txtSingle_floor_price
+        {
+            width: 78px;
+            height: 28px;
+        }
+
+        #txtSingle_floor
+        {
+            width: 78px;
+            height: 28px;
+        }
+
+        #txtFloor_space
+        {
+            width: 78px;
+            height: 28px;
+        }
+
+        #txtManagement
+        {
+            width: 78px;
+            height: 28px;
+        }

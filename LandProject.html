@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>DASHAN Land Project</title>
+    <link href="css/df.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/Land.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+</head>
+<body onclick="MyEvent()" onkeydown="MyEvent()" onkeyup="MyEvent()" onchange="MyEvent()">
+    <center>
+        
+
+        <fieldset>
+            <legend>Product By Rochen</legend>
+            <span id="status" class="success">checking...</span>
+            <div id="mapcanvas" style="width:560px;height:400px;"></div>
+            <br />
+            <div class="sexyborder">
+                <table border="1" class="fancytable" width="100%" align="center">
+                    <tr class="headerrow">
+                        <td colspan="4">開發概算</td>
+                    </tr>
+                    <tr class="datarowodd">
+                        <td class="Tag1">
+                            <label>總坪數：</label>
+                        </td>
+                        <td class="Tag2">
+                            <input type="text" id="txtOverall" value="">
+                        </td>
+                        <td class="Tag1">
+                            <label>規畫戶數：</label>
+                        </td>
+                        <td class="Tag2">
+                            <input type="text" id="txtPlanning" value="" />
+                        </td>
+                    </tr>
+                    <tr class="datarowodd">
+                        <td class="Tag1">
+                            <label>均坪：</label>
+                        </td>
+                        <td class="Tag2">
+                            <label id="labBoth">&nbsp;</label>
+                        </td>
+                        <td class="Tag1">
+                            <label>單坪均價：</label>
+                        </td>
+                        <td class="Tag2">
+                            <input type="text" id="txtSingle_floor_price" value="" />
+                        </td>
+                    </tr>
+                    <tr class="datarowodd">
+                        <td class="Tag1">
+                            <label>土地成本：</label>
+                        </td>
+                        <td class="Tag2">
+                            <label id="labland_profits">&nbsp;</label>
+                        </td>
+
+                        <td class="Tag1">
+                            <label>土地利潤：</label>
+                        </td>
+                        <td class="Tag2">
+                            <input type="text" id="txtSingle_floor" value="" />%
+                        </td>
+                    </tr>
+
+                    <tr class="datarowodd">
+                        <td class="Tag1">
+                            <label>土地利潤金額：</label>
+                        </td>
+                        <td class="Tag2" colspan="3">
+                            <label id="labLand_costs">&nbsp;</label>
+                        </td>
+                    </tr>
+
+
+                    <tr class="datarowodd">
+                        <td class="Tag1">
+                            <label>建坪：</label>
+                        </td>
+                        <td class="Tag2">
+                            <input type="text" id="txtFloor_space" value="" />
+                        </td>
+                        <td class="Tag1">
+                            <label>建築單坪成本：</label>
+                        </td>
+                        <td class="Tag2">
+                            <input type="text" id="txtSingle-floor" value="" style="width: 83px; height: 26px" />
+                        </td>
+                    </tr>
+
+                    <tr class="datarowodd">
+                        <td class="Tag1">
+                            <label>管銷：</label>
+                        </td>
+                        <td class="Tag2">
+                            <input type="text" id="txtManagement" value="" />%
+                        </td>
+                        <td class="Tag1">
+                            <label>建物成本：</label>
+                        </td>
+                        <td class="Tag2">
+                            <label id="labBuilding_costs"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Tag1">單戶成本：</td>
+                        <td class="Tag2" colspan="3">
+                            <label id="labSingle-family_costs">&nbsp;</label>
+                        </td>
+                    </tr>
+                    <tr class="datarowodd">
+                        <td class="Tag1">單戶成本(含管銷)：</td>
+                        <td class="Tag2" colspan="3">
+                            <label id="labSingle-family_costs2">&nbsp;</label>
+                        </td>
+                    </tr>
+                    <tr class="datarowodd">
+                        <td class="Tag1">基楚毛利：</td>
+                        <td class="Tag2" colspan="3">
+                            <label id="labMaori_groups_Chu">&nbsp;</label>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </fieldset>
+    </center>
+    <script src="js/GMap.js"></script>
+</body>
+</html>
